@@ -142,11 +142,25 @@ You can also use some online hex editor tool like this one:
 - https://hex-works.com/eng
 
 ## Exercise
+
+### Hacking magic number
 1. Use mentioned earlier online editor (or any other) and change magic number to following value:
 ```
 ccff
 ```
-Now save new version of file and try to run it. What just happened?
-2. Add inner class called `HelloPoland` inside HelloWorld class and compile code once again. 
-How many files did compiler just created?
+2. Now save new version of file and try to run it. What just happened?
+
+### Compiling inner classes
+
+1. Add inner class called `HelloPoland` inside HelloWorld class and compile code once again. 
+2. How many files did compiler just created?
+
+### Compile with package
+
+1. Crate new class `HelloPiotrkowska` in following package `world.pl.lodz.srodmiescie` 
+2. Implement main method printing something on screen like following:
+```java
+System.out.println("I am so looong");
+```
+3. Compile and run code
 

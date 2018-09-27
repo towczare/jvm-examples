@@ -1,6 +1,6 @@
 # 03 JIT
 
-1. Compile and run `Performance1` class
+1. Compile and run `GCTest` class
 2. Copy results to some spreadsheet file and visualize results on chart like one below:
 ![performance chart 1](chart1.png)
 3. Now compile, optimized with simple inlining version of code `Performance2`  and do the same.
@@ -28,5 +28,8 @@ public class AllocationPerformance {
 }
 ```
 2. Compile, run class and  create chart as before.
+3. Spot the lowest numbers? When do they drop?
+4. Now try to make `CHUNK_SIZE` higher and update code to `10_000`
+5. Compile and run again. Generate chart and compare. What did you notice?
 Can you spot levels of code maturity?
 How JIT optimized the code? 
