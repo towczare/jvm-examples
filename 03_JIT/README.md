@@ -1,6 +1,6 @@
 # 03 JIT
 
-1. Compile and run `GCTest` class
+1. Compile and run `Performance1` class
 2. Copy results to some spreadsheet file and visualize results on chart like one below:
 ![performance chart 1](chart1.png)
 3. Now compile, optimized with simple inlining version of code `Performance2`  and do the same.
